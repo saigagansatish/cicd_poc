@@ -40,3 +40,4 @@ jobs:
     - name: Push Docker Image to Docker Hub
       run: |
         docker push gagan2104/cicd_poc:latest
+   
