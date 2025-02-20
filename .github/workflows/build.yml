@@ -61,8 +61,8 @@ jobs:
 
     - name: Commit and push changes to helm-charts repo
       run: |
-        git config user.name "GitHub Actions"
-        git config user.email "actions@github.com"
+        git config user.name "saigagansatish"
+        git config user.email "gagan7876@gmail.com"
         git add helm-charts/helm-manifests/deployment.yaml
         git commit -m "Update image tag to $IMAGE_TAG"
         git push origin main  # Or the branch you're working on
